@@ -1,0 +1,36 @@
+{
+  "name": "claude-chronicle",
+  "owner": {
+    "name": "Wojciech Kapała",
+    "url": "https://github.com/wojciechkapala"
+  },
+  "metadata": {
+    "description": "Bridges Codex Chronicle screen-recording summaries into Claude Code.",
+    "version": "0.4.1"
+  },
+  "plugins": [
+    {
+      "name": "claude-chronicle",
+      "source": "./",
+      "description": "Auto-injects Codex Chronicle 10-minute activity summaries into Claude Code so it knows what you have been doing on your computer. Includes a /claude-chronicle:remind skill that searches by time, topic, or both.",
+      "version": "0.4.1",
+      "author": {
+        "name": "Wojciech Kapała",
+        "email": "wojtek@botmate.pl"
+      },
+      "category": "context",
+      "tags": [
+        "codex",
+        "chronicle",
+        "context",
+        "memory",
+        "hooks",
+        "screen-recording",
+        "time-travel",
+        "recall"
+      ],
+      "homepage": "https://github.com/wojciechkapala/claude-chronicle",
+      "license": "MIT"
+    }
+  ]
+}
